@@ -1,6 +1,6 @@
 import { Fragment } from "react";
-import { ThemeProvider } from "@/components/theme-provider";
-import { ModeToggle } from "@/components/mode-toggle";
+import { ThemeProvider } from "@/components/layout/theme-provider";
+import { ModeToggle } from "@/components/layout/mode-toggle";
 import {
   Bars3Icon,
   BookmarkSquareIcon,
@@ -22,7 +22,7 @@ import {
 } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Popover, Transition } from "@headlessui/react";
-import logo from "../assets/img/alfakhir.png";
+import logo from "../../assets/img/alfakhir.png";
 
 const solutions = [
   {
