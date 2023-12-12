@@ -1,6 +1,6 @@
-import { Fragment } from "react";
-import { ThemeProvider } from "@/components/layout/theme-provider";
-import { ModeToggle } from "@/components/layout/mode-toggle";
+import { Fragment } from 'react';
+import { ThemeProvider } from '@/components/layout/theme-provider';
+import { ModeToggle } from '@/components/layout/mode-toggle';
 import {
   Bars3Icon,
   BookmarkSquareIcon,
@@ -19,79 +19,97 @@ import {
   Squares2X2Icon,
   UserGroupIcon,
   XMarkIcon,
-} from "@heroicons/react/24/outline";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
-import { Popover, Transition } from "@headlessui/react";
-import logo from "../../assets/img/alfakhir.png";
+  ChartPieIcon,
+  FingerPrintIcon,
+  SquaresPlusIcon,
+  ArrowPathIcon
+} from '@heroicons/react/24/outline';
+import { ChevronDownIcon } from '@heroicons/react/20/solid';
+import { Popover, Transition } from '@headlessui/react';
+import logo from '../../assets/img/alfakhir.png';
 
 const solutions = [
   {
-    name: "Welcome",
+    name: 'Sejarah',
     description:
-      "Get a better understanding of where your traffic is coming from.",
-    href: "#",
-    icon: ChartBarIcon,
+      'Get a better understanding of where your traffic is coming from.',
+    href: '#',
+    icon: ChartBarIcon
   },
   {
-    name: "Vision and Mission",
-    description: "Speak directly to your customers in a more meaningful way.",
-    href: "#",
-    icon: CursorArrowRaysIcon,
+    name: 'Visi, Misi & Tujuan',
+    description: 'Speak directly to your customers in a more meaningful way.',
+    href: '#',
+    icon: CursorArrowRaysIcon
   },
   {
-    name: "Objective",
+    name: 'Struktur Organisasi Sekolah',
     description: "Your customers' data will be safe and secure.",
-    href: "#",
-    icon: ShieldCheckIcon,
+    href: '#',
+    icon: ShieldCheckIcon
   },
   {
-    name: "Teachers",
+    name: 'Jajaran Guru & Staff',
     description: "Connect with third-party tools that you're already using.",
-    href: "#",
-    icon: Squares2X2Icon,
-  },
+    href: '#',
+    icon: Squares2X2Icon
+  }
 ];
 const callsToAction = [
-  { name: "Our Video", href: "#", icon: PlayIcon },
-  { name: "View All Curiculum", href: "#", icon: CheckCircleIcon },
-  { name: "Contact us", href: "#", icon: PhoneIcon },
+  { name: 'Our Video', href: '#', icon: PlayIcon },
+  { name: 'View All Curiculum', href: '#', icon: CheckCircleIcon },
+  { name: 'Contact us', href: '#', icon: PhoneIcon }
 ];
 const company = [
-  { name: "About", href: "#", icon: InformationCircleIcon },
-  { name: "Customers", href: "#", icon: BuildingOfficeIcon },
-  { name: "Press", href: "#", icon: NewspaperIcon },
-  { name: "Careers", href: "#", icon: BriefcaseIcon },
-  { name: "Privacy", href: "#", icon: ShieldCheckIcon },
+  { name: 'Kurikulum', href: '#', icon: InformationCircleIcon },
+  { name: 'Ekstrakurikuler', href: '#', icon: BuildingOfficeIcon },
+  { name: 'Program Field Trip', href: '#', icon: NewspaperIcon },
+  { name: 'International Program', href: '#', icon: BriefcaseIcon },
+  { name: 'Muatan Lokal', href: '#', icon: ShieldCheckIcon }
+];
+const fasilitas = [
+  { name: 'Ruangan Kelas Ber AC', href: '#', icon: InformationCircleIcon },
+  { name: 'Laboratorium Sains', href: '#', icon: BuildingOfficeIcon },
+  { name: 'Laboratorium Komputer', href: '#', icon: NewspaperIcon },
+  { name: 'Sarana Olahraga', href: '#', icon: BriefcaseIcon },
+  { name: 'Musholla', href: '#', icon: ShieldCheckIcon }
+];
+const fasilitas2 = [
+  { name: 'Kolam Renang', href: '#', icon: ShieldCheckIcon },
+  { name: 'Auditorium', href: '#', icon: UserGroupIcon },
+  { name: 'Perpustakaan', href: '#', icon: GlobeAltIcon },
+  { name: 'Kantin/Mini Market', href: '#', icon: BookmarkSquareIcon },
+  { name: 'Ruang Multimedia', href: '#', icon: ComputerDesktopIcon }
 ];
 const resources = [
-  { name: "Community", href: "#", icon: UserGroupIcon },
-  { name: "Partners", href: "#", icon: GlobeAltIcon },
-  { name: "Guides", href: "#", icon: BookmarkSquareIcon },
-  { name: "Webinars", href: "#", icon: ComputerDesktopIcon },
+  { name: 'Community', href: '#', icon: UserGroupIcon },
+  { name: 'Partners', href: '#', icon: GlobeAltIcon },
+  { name: 'Guides', href: '#', icon: BookmarkSquareIcon },
+  { name: 'Webinars', href: '#', icon: ComputerDesktopIcon }
 ];
 const blogPosts = [
   {
     id: 1,
-    name: "Boost your conversion rate",
-    href: "#",
+    name: 'Boost your conversion rate',
+    href: '#',
     preview:
-      "Eget ullamcorper ac ut vulputate fames nec mattis pellentesque elementum. Viverra tempor id mus.",
+      'Eget ullamcorper ac ut vulputate fames nec mattis pellentesque elementum. Viverra tempor id mus.',
     imageUrl:
-      "https://images.unsplash.com/photo-1558478551-1a378f63328e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2849&q=80",
+      'https://images.unsplash.com/photo-1558478551-1a378f63328e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2849&q=80'
   },
   {
     id: 2,
-    name: "How to use search engine optimization to drive traffic to your site",
-    href: "#",
+    name: 'How to use search engine optimization to drive traffic to your site',
+    href: '#',
     preview:
-      "Eget ullamcorper ac ut vulputate fames nec mattis pellentesque elementum. Viverra tempor id mus.",
+      'Eget ullamcorper ac ut vulputate fames nec mattis pellentesque elementum. Viverra tempor id mus.',
     imageUrl:
-      "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2300&q=80",
-  },
+      'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2300&q=80'
+  }
 ];
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
+  return classes.filter(Boolean).join(' ');
 }
 
 export default function NavMenu() {
@@ -117,6 +135,7 @@ export default function NavMenu() {
           </div>
           <div className="hidden md:flex md:flex-1 md:items-center md:justify-between">
             <Popover.Group as="nav" className="flex space-x-10">
+              {/* first menu  */}
               <Popover>
                 {({ open }) => (
                   <>
@@ -128,15 +147,15 @@ export default function NavMenu() {
                     </a> */}
                     <Popover.Button
                       className={classNames(
-                        open ? "text-gray-900" : "text-gray-500",
-                        "group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
+                        open ? 'text-gray-900' : 'text-gray-500',
+                        'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2'
                       )}
                     >
-                      <span>Our School</span>
+                      <span>Tentang Kami</span>
                       <ChevronDownIcon
                         className={classNames(
-                          open ? "text-gray-600" : "text-gray-400",
-                          "ml-2 h-5 w-5 group-hover:text-gray-500"
+                          open ? 'text-gray-600' : 'text-gray-400',
+                          'ml-2 h-5 w-5 group-hover:text-gray-500'
                         )}
                         aria-hidden="true"
                       />
@@ -209,32 +228,22 @@ export default function NavMenu() {
                   </>
                 )}
               </Popover>
-              <a
-                href="#"
-                className="text-base font-medium text-gray-500 hover:text-gray-900"
-              >
-                About
-              </a>
-              <a
-                href="#"
-                className="text-base font-medium text-gray-500 hover:text-gray-900"
-              >
-                Docs
-              </a>
+
+              {/* second menu  */}
               <Popover>
                 {({ open }) => (
                   <>
                     <Popover.Button
                       className={classNames(
-                        open ? "text-gray-900" : "text-gray-500",
-                        "group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
+                        open ? 'text-gray-900' : 'text-gray-500',
+                        'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2'
                       )}
                     >
                       <span>Program</span>
                       <ChevronDownIcon
                         className={classNames(
-                          open ? "text-gray-600" : "text-gray-400",
-                          "ml-2 h-5 w-5 group-hover:text-gray-500"
+                          open ? 'text-gray-600' : 'text-gray-400',
+                          'ml-2 h-5 w-5 group-hover:text-gray-500'
                         )}
                         aria-hidden="true"
                       />
@@ -277,7 +286,7 @@ export default function NavMenu() {
                                 ))}
                               </ul>
                             </div>
-                            <div>
+                            {/* <div>
                               <h3 className="text-base font-medium text-gray-500">
                                 Resources
                               </h3>
@@ -297,7 +306,7 @@ export default function NavMenu() {
                                   </li>
                                 ))}
                               </ul>
-                            </div>
+                            </div> */}
                           </nav>
                           <div className="bg-gray-50 px-4 py-8 sm:py-12 sm:px-6 lg:px-8 xl:pl-12">
                             <div>
@@ -347,12 +356,95 @@ export default function NavMenu() {
                   </>
                 )}
               </Popover>
+
+              {/* third menu  */}
+              <Popover>
+                {({ open }) => (
+                  <>
+                    <Popover.Button
+                      className={classNames(
+                        open ? 'text-gray-900' : 'text-gray-500',
+                        'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2'
+                      )}
+                    >
+                      <span>Fasilitas</span>
+                      <ChevronDownIcon
+                        className={classNames(
+                          open ? 'text-gray-600' : 'text-gray-400',
+                          'ml-2 h-5 w-5 group-hover:text-gray-500'
+                        )}
+                        aria-hidden="true"
+                      />
+                    </Popover.Button>
+
+                    <Transition
+                      as={Fragment}
+                      enter="transition ease-out duration-200"
+                      enterFrom="opacity-0 -translate-y-1"
+                      enterTo="opacity-100 translate-y-0"
+                      leave="transition ease-in duration-150"
+                      leaveFrom="opacity-100 translate-y-0"
+                      leaveTo="opacity-0 -translate-y-1"
+                    >
+                      <Popover.Panel className="absolute inset-x-0 top-full z-10 hidden transform shadow-lg md:block">
+                        <div className="absolute inset-0 flex">
+                          <div className="w-1/2 bg-white" />
+                          <div className="w-1/2 bg-gray-50" />
+                        </div>
+                        <div className="relative mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
+                          <nav className="grid gap-y-10 bg-white px-4 py-8 sm:grid-cols-2 sm:gap-x-8 sm:py-12 sm:px-6 lg:px-8 xl:pr-12">
+                            <div>
+                              {/* <h3 className="text-base font-medium text-gray-500">
+                                Company
+                              </h3> */}
+                              <ul role="list" className="mt-5 space-y-6">
+                                {fasilitas.map((item) => (
+                                  <li key={item.name} className="flow-root">
+                                    <a
+                                      href={item.href}
+                                      className="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900 hover:bg-gray-50"
+                                    >
+                                      <item.icon
+                                        className="h-6 w-6 flex-shrink-0 text-gray-400"
+                                        aria-hidden="true"
+                                      />
+                                      <span className="ml-4">{item.name}</span>
+                                    </a>
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                            <div>
+                              <ul role="list" className="mt-5 space-y-6">
+                                {fasilitas2.map((item) => (
+                                  <li key={item.name} className="flow-root">
+                                    <a
+                                      href={item.href}
+                                      className="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900 hover:bg-gray-50"
+                                    >
+                                      <item.icon
+                                        className="h-6 w-6 flex-shrink-0 text-gray-400"
+                                        aria-hidden="true"
+                                      />
+                                      <span className="ml-4">{item.name}</span>
+                                    </a>
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          </nav>
+                        </div>
+                      </Popover.Panel>
+                    </Transition>
+                  </>
+                )}
+              </Popover>
             </Popover.Group>
 
             <div className="flex items-center md:ml-12">
               <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
                 <ModeToggle></ModeToggle>
-              </ThemeProvider> 
+              </ThemeProvider>
               {/* <a
                 href="#"
                 className="ml-8 text-base font-medium text-gray-500 hover:text-gray-900"
@@ -363,7 +455,7 @@ export default function NavMenu() {
                 href="#"
                 className="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-teal-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-teal-700"
               >
-                Register
+                Pendaftaran
               </a>
             </div>
           </div>
