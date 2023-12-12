@@ -1,7 +1,6 @@
 import { Fragment } from "react";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ModeToggle } from "@/components/mode-toggle";
-import { Popover, Transition } from "@headlessui/react";
 import {
   Bars3Icon,
   BookmarkSquareIcon,
@@ -22,39 +21,40 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import { Popover, Transition } from "@headlessui/react";
 import logo from "../assets/img/alfakhir.png";
 
 const solutions = [
   {
-    name: "Analytics",
+    name: "Welcome",
     description:
       "Get a better understanding of where your traffic is coming from.",
     href: "#",
     icon: ChartBarIcon,
   },
   {
-    name: "Engagement",
+    name: "Vision and Mission",
     description: "Speak directly to your customers in a more meaningful way.",
     href: "#",
     icon: CursorArrowRaysIcon,
   },
   {
-    name: "Security",
+    name: "Objective",
     description: "Your customers' data will be safe and secure.",
     href: "#",
     icon: ShieldCheckIcon,
   },
   {
-    name: "Integrations",
+    name: "Teachers",
     description: "Connect with third-party tools that you're already using.",
     href: "#",
     icon: Squares2X2Icon,
   },
 ];
 const callsToAction = [
-  { name: "Watch Demo", href: "#", icon: PlayIcon },
-  { name: "View All Products", href: "#", icon: CheckCircleIcon },
-  { name: "Contact Sales", href: "#", icon: PhoneIcon },
+  { name: "Our Video", href: "#", icon: PlayIcon },
+  { name: "View All Curiculum", href: "#", icon: CheckCircleIcon },
+  { name: "Contact us", href: "#", icon: PhoneIcon },
 ];
 const company = [
   { name: "About", href: "#", icon: InformationCircleIcon },
@@ -132,7 +132,7 @@ export default function NavMenu() {
                         "group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
                       )}
                     >
-                      <span>Academic</span>
+                      <span>Our School</span>
                       <ChevronDownIcon
                         className={classNames(
                           open ? "text-gray-600" : "text-gray-400",
@@ -350,20 +350,20 @@ export default function NavMenu() {
             </Popover.Group>
 
             <div className="flex items-center md:ml-12">
-              {/* <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
+              <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
                 <ModeToggle></ModeToggle>
-              </ThemeProvider> */}
-              <a
+              </ThemeProvider> 
+              {/* <a
                 href="#"
                 className="ml-8 text-base font-medium text-gray-500 hover:text-gray-900"
               >
                 Sign in
-              </a>
+              </a> */}
               <a
                 href="#"
                 className="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-teal-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-teal-700"
               >
-                Sign up
+                Register
               </a>
             </div>
           </div>
