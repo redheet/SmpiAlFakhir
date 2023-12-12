@@ -18,11 +18,7 @@ import {
   ShieldCheckIcon,
   Squares2X2Icon,
   UserGroupIcon,
-  XMarkIcon,
-  ChartPieIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
-  ArrowPathIcon
+  XMarkIcon
 } from '@heroicons/react/24/outline';
 import { ChevronDownIcon } from '@heroicons/react/20/solid';
 import { Popover, Transition } from '@headlessui/react';
@@ -81,12 +77,12 @@ const fasilitas2 = [
   { name: 'Kantin/Mini Market', href: '#', icon: BookmarkSquareIcon },
   { name: 'Ruang Multimedia', href: '#', icon: ComputerDesktopIcon }
 ];
-const resources = [
-  { name: 'Community', href: '#', icon: UserGroupIcon },
-  { name: 'Partners', href: '#', icon: GlobeAltIcon },
-  { name: 'Guides', href: '#', icon: BookmarkSquareIcon },
-  { name: 'Webinars', href: '#', icon: ComputerDesktopIcon }
-];
+// const resources = [
+//   { name: 'Community', href: '#', icon: UserGroupIcon },
+//   { name: 'Partners', href: '#', icon: GlobeAltIcon },
+//   { name: 'Guides', href: '#', icon: BookmarkSquareIcon },
+//   { name: 'Webinars', href: '#', icon: ComputerDesktopIcon }
+// ];
 const blogPosts = [
   {
     id: 1,
