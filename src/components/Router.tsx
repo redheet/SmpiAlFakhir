@@ -1,7 +1,7 @@
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
+import Home from './pages/Home.tsx';
+import About from './pages/About.tsx';
 
 function Router() {
   return (
