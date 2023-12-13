@@ -28,7 +28,7 @@ const solutions = [
     name: 'Sejarah',
     description:
       'Get a better understanding of where your traffic is coming from.',
-    href: '/about',
+    href: '/About',
     icon: ChartBarIcon
   },
   {
