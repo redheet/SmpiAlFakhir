@@ -1,6 +1,5 @@
 import { Fragment } from 'react';
-// import { ThemeProvider } from '@/components/layout/theme-provider';
-// import { ModeToggle } from '@/components/layout/mode-toggle';
+
 import {
   Bars3Icon,
   BookmarkSquareIcon,
