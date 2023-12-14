@@ -1,5 +1,6 @@
 // import Breadcrumb from '../layout/breadcrumbs';
 import Building from '../../assets/img/building.jpeg';
+import Footer from '../layout/footer';
 import NavMenu from '../layout/nav-menu';
 import Head from '../ui/Head';
 
@@ -8,9 +9,9 @@ function About() {
     <>
       <Head title="Sejarah" />
       <NavMenu />
-      {/* <Breadcrumb /> */}
 
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        {/* <Breadcrumb /> */}
         <nav aria-label="Breadcrumb" className="flex">
           <ol className="flex overflow-hidden rounded-lg border border-gray-200 text-gray-600">
             <li className="flex items-center">
@@ -49,6 +50,8 @@ function About() {
             </li>
           </ol>
         </nav>
+        {/* <Breadcrumb /> */}
+
         <div className="grid gap-10 lg:grid-cols-2">
           <div className="lg:pr-10">
             <a
@@ -61,12 +64,12 @@ function About() {
               Sejarah Sekolah
             </h5>
             <p className="mb-6 text-gray-900">
-              SMP Islam Modern Al Fakhir dicetuskan untuk didirikan oleh Bpk.
-              Deni Irawan, M.Pd pada bulan Oktober 2023. Arti nama Al -Fakhir
-              artinya adalah kemuliaan, kebesaran atau kebanggaan dengan harapan
-              sekolah ini bisa menjadi sekolah yang besar dan juga setiap
-              siswa-siswi yang bersekolah di sekolah ini menjadi sosok yang
-              membanggakan bagi dirinya sendiri, keluarga, juga masyarakat.
+              SMP Islam Modern Al Fakhir didirikan oleh Bpk. Deni Irawan, M.Pd
+              pada bulan Oktober 2023. Arti nama Al-Fakhir artinya adalah
+              kemuliaan, kebesaran atau kebanggaan dengan harapan sekolah ini
+              bisa menjadi sekolah yang besar dan juga setiap siswa-siswi yang
+              bersekolah di sekolah ini menjadi sosok yang membanggakan bagi
+              dirinya sendiri, keluarga, juga masyarakat.
             </p>
             <hr className="mb-5 border-gray-300" />
             <div className="flex items-center space-x-4">
@@ -115,9 +118,9 @@ function About() {
         </div>
         <div className="mt-8">
           {/* timeline  */}
-          <ol className="border-l border-neutral-300 dark:border-neutral-500 md:flex md:justify-center md:gap-6 md:border-l-0 md:border-t">
-            {/* <!--First item--> */}
-            <li>
+          {/* <ol className="border-l border-neutral-300 dark:border-neutral-500 md:flex md:justify-center md:gap-6 md:border-l-0 md:border-t"> */}
+          {/* First item  */}
+          {/* <li>
               <div className="flex-start flex items-center pt-2 md:block md:pt-0">
                 <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500 md:-mt-[5px] md:ml-0 md:mr-0"></div>
                 <p className="mt-2 text-sm text-neutral-500 dark:text-neutral-300">
@@ -135,10 +138,10 @@ function About() {
                   ligula in sodales vehicula.
                 </p>
               </div>
-            </li>
+            </li> */}
 
-            {/* <!--Second item--> */}
-            <li>
+          {/* <!--Second item--> */}
+          {/* <li>
               <div className="flex-start flex items-center pt-2 md:block md:pt-0">
                 <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500 md:-mt-[5px] md:ml-0 md:mr-0"></div>
                 <p className="mt-2 text-sm text-neutral-500 dark:text-neutral-300">
@@ -155,10 +158,10 @@ function About() {
                   eaque, consectetur porro molestiae ipsam an deleniti.
                 </p>
               </div>
-            </li>
+            </li> */}
 
-            {/* <!--Third item--> */}
-            <li>
+          {/* <!--Third item--> */}
+          {/* <li>
               <div className="flex-start flex items-center pt-2 md:block md:pt-0">
                 <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500 md:-mt-[5px] md:ml-0 md:mr-0"></div>
                 <p className="mt-2 text-sm text-neutral-500 dark:text-neutral-300">
@@ -176,198 +179,12 @@ function About() {
                   rerum pariatur quam ipsam necessitatibus incidunt, explicabo.
                 </p>
               </div>
-            </li>
-          </ol>
+            </li> */}
+          {/* </ol> */}
         </div>
       </div>
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-          <div>
-            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-              Visi & Misi
-            </p>
-          </div>
-          <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-            <span className="relative inline-block">
-              <svg
-                viewBox="0 0 52 24"
-                fill="currentColor"
-                className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
-              >
-                <defs>
-                  <pattern
-                    id="d9d7687a-355f-4502-8ec4-7945db034688"
-                    x="0"
-                    y="0"
-                    width=".135"
-                    height=".30"
-                  >
-                    <circle cx="1" cy="1" r=".7" />
-                  </pattern>
-                </defs>
-                <rect
-                  fill="url(#d9d7687a-355f-4502-8ec4-7945db034688)"
-                  width="52"
-                  height="24"
-                />
-              </svg>
-              <span className="relative">Visi - Misi</span>
-            </span>
-          </h2>
-          <p className="text-base text-gray-700 md:text-lg">
-            Terwujudnya pendidikan yang bermutu tinggi dalam membentuk
-            siswa-siswi yang berakhlak, modern, dan menjadi kebanggaan.
-          </p>
-        </div>
-        <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3">
-          <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-            <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-10 h-10 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
-            </div>
-            <h6 className="mb-2 font-semibold leading-5">
-              Beribadah dengan benar
-            </h6>
-            <p className="text-sm text-gray-900">
-              Pendidikan yang bermutu tinggi dalam membentuk siswa-siswi yang
-              berakhlak, modern, dan menjadi kebanggaan.
-            </p>
-          </div>
-          <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-            <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-10 h-10 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
-            </div>
-            <h6 className="mb-2 font-semibold leading-5">Berakhlak Mulia</h6>
-            <p className="text-sm text-gray-900">
-              Pendidikan yang bermutu tinggi dalam membentuk siswa-siswi yang
-              berakhlak, modern, dan menjadi kebanggaan.
-            </p>
-          </div>
-          <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-            <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-10 h-10 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
-            </div>
-            <h6 className="mb-2 font-semibold leading-5">Berbadan Sehat</h6>
-            <p className="text-sm text-gray-900">
-              Pendidikan yang bermutu tinggi dalam membentuk siswa-siswi yang
-              berakhlak, modern, dan menjadi kebanggaan.
-            </p>
-          </div>
-          <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-            <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-10 h-10 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
-            </div>
-            <h6 className="mb-2 font-semibold leading-5">
-              Berpengetahuan Luas
-            </h6>
-            <p className="text-sm text-gray-900">
-              Pendidikan yang bermutu tinggi dalam membentuk siswa-siswi yang
-              berakhlak, modern, dan menjadi kebanggaan.
-            </p>
-          </div>
-          <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-            <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-10 h-10 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
-            </div>
-            <h6 className="mb-2 font-semibold leading-5">
-              Berfikir kritis & Kreatif
-            </h6>
-            <p className="text-sm text-gray-900">
-              Pendidikan yang bermutu tinggi dalam membentuk siswa-siswi yang
-              berakhlak, modern, dan menjadi kebanggaan.
-            </p>
-          </div>
-          <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
-            <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-10 h-10 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
-            </div>
-            <h6 className="mb-2 font-semibold leading-5">Cinta Al-Qur'an</h6>
-            <p className="text-sm text-gray-900">
-              Pendidikan yang bermutu tinggi dalam membentuk siswa-siswi yang
-              berakhlak, modern, dan menjadi kebanggaan.
-            </p>
-          </div>
-        </div>
-        <div className="text-center">
-          <a
-            href="/"
-            className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-gray-500 transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-          >
-            Selengkapnya
-          </a>
-        </div>
-      </div>
+
+      <Footer />
     </>
   );
 }

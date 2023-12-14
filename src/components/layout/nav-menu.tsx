@@ -28,13 +28,13 @@ const solutions = [
     name: 'Sejarah',
     description:
       'Get a better understanding of where your traffic is coming from.',
-    href: '/About',
+    href: '/about',
     icon: ChartBarIcon
   },
   {
     name: 'Visi, Misi & Tujuan',
     description: 'Speak directly to your customers in a more meaningful way.',
-    href: '#',
+    href: '/visi-misi',
     icon: CursorArrowRaysIcon
   },
   {
@@ -46,14 +46,14 @@ const solutions = [
   {
     name: 'Jajaran Guru & Staff',
     description: "Connect with third-party tools that you're already using.",
-    href: '#',
+    href: '/team',
     icon: Squares2X2Icon
   }
 ];
 const callsToAction = [
-  { name: 'Our Video', href: '#', icon: PlayIcon },
-  { name: 'View All Curiculum', href: '#', icon: CheckCircleIcon },
-  { name: 'Contact us', href: '#', icon: PhoneIcon }
+  { name: 'Video Kami', href: '#', icon: PlayIcon },
+  { name: 'Detail Kurikulum', href: '#', icon: CheckCircleIcon },
+  { name: 'Hubungi Kami', href: '#', icon: PhoneIcon }
 ];
 const company = [
   { name: 'Kurikulum', href: '#', icon: InformationCircleIcon },
@@ -119,7 +119,7 @@ export default function NavMenu() {
           <div className="mx-auto flex max-w-7xl items-center justify-between py-5 px-6 sm:py-4 md:justify-start md:space-x-10 lg:px-8">
             <div>
               <a href="/" className="flex">
-                <span className="sr-only">SMPI Al Fakhir</span>
+                <span className="sr-only">SMPI Modern Al Fakhir</span>
                 <img className="h-16 w-auto sm:h-16" src={logo} alt="" />
               </a>
             </div>

@@ -1,11 +1,13 @@
-import { Helmet } from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 function Head({ title }) {
   return (
     <>
-      <Helmet>
-        <title>{title} - SMPI Modern Al-Fakhir</title>
-      </Helmet>
+      <HelmetProvider>
+        <Helmet>
+          <title>{title} - SMPI Modern Al-Fakhir</title>
+        </Helmet>
+      </HelmetProvider>
     </>
   );
 }

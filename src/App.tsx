@@ -1,18 +1,9 @@
-import { SpeedInsights } from '@vercel/speed-insights/react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './components/pages/home';
-import About from './components/pages/about';
+import Router from './components/Router';
 
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
-        </Routes>
-        <SpeedInsights />
-      </BrowserRouter>
+      <Router />
     </>
   );
 }
