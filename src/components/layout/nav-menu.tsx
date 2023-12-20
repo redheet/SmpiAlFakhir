@@ -455,7 +455,7 @@ export default function NavMenu() {
               </ThemeProvider> */}
 
                 <a
-                  href="#"
+                  href="https://pendaftaran.smpialfakhir.sch.id"
                   className="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-teal-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-teal-700"
                 >
                   Pendaftaran
@@ -531,45 +531,21 @@ export default function NavMenu() {
                     href="#"
                     className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700"
                   >
-                    Pricing
+                    Fasilitas
                   </a>
                   <a
                     href="#"
                     className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700"
                   >
-                    Docs
-                  </a>
-                  <a
-                    href="#"
-                    className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700"
-                  >
-                    Company
-                  </a>
-                  <a
-                    href="#"
-                    className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700"
-                  >
-                    Resources
-                  </a>
-                  <a
-                    href="#"
-                    className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700"
-                  >
-                    Blog
-                  </a>
-                  <a
-                    href="#"
-                    className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700"
-                  >
-                    Contact Sales
+                    Galery
                   </a>
                 </div>
                 <div className="mt-6">
                   <a
-                    href="#"
+                    href="https://pendaftaran.smpialfakhir.sch.id"
                     className="flex w-full items-center justify-center rounded-md border border-transparent bg-teal-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-teal-700"
                   >
-                    Sign up
+                    Pendaftaran
                   </a>
                 </div>
               </div>

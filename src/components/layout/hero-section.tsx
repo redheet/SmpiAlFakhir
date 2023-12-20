@@ -33,22 +33,19 @@ export default function HeroSection() {
               </span>
             </h2>
             <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
-              SMP Islam Modern Al Fakhir didirikan oleh Bpk. Deni Irawan, M.Pd
-              pada bulan Oktober 2023. Arti nama Al -Fakhir artinya adalah
-              kemuliaan, kebesaran atau kebanggaan dengan harapan sekolah ini
-              bisa menjadi sekolah yang besar dan juga setiap siswa-siswi yang
-              bersekolah di sekolah ini menjadi sosok yang membanggakan bagi
-              dirinya sendiri, keluarga, juga masyarakat.
+              SMP Islam yang mengusung konsep modern, mengadopsi model kelas dan
+              program internasional, namun tetap mengutamakan pendidikan
+              karakter, moral, akhlak dan nilai-nilai keislaman.
             </p>
             <div className="flex items-center">
               <a
-                href="/"
+                href="https://pendaftaran.smpialfakhir.sch.id"
                 className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-600 hover:bg-teal-700 focus:shadow-outline focus:outline-none"
               >
                 Daftar Sekarang
               </a>
               <a
-                href="/"
+                href="/about"
                 aria-label=""
                 className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-teal-700"
               >
