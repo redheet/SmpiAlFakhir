@@ -40,7 +40,7 @@ const solutions = [
   {
     name: 'Struktur Organisasi Sekolah',
     description: "Your customers' data will be safe and secure.",
-    href: '#',
+    href: '/scheme',
     icon: ShieldCheckIcon
   },
   {
