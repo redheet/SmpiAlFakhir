@@ -1,4 +1,5 @@
 import { Helmet, HelmetProvider } from 'react-helmet-async';
+import icon from '/src/favicon.ico';
 
 function Head({ title }) {
   return (
@@ -6,6 +7,7 @@ function Head({ title }) {
       <HelmetProvider>
         <Helmet>
           <title>{title} - SMPI Modern Al-Fakhir</title>
+          <link rel="shortcut icon" href={icon} />
         </Helmet>
       </HelmetProvider>
     </>

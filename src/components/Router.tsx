@@ -4,6 +4,9 @@ import Home from './pages/home';
 import About from './pages/about';
 import VisiMisi from './pages/visi-misi';
 import Team from './pages/team';
+import NotFoundPgaes from './pages/notfoundpages';
+import Program from './pages/program';
+import Gallery from './pages/gallery';
 // import Registration from './pages/registration';
 
 function Router() {
@@ -16,7 +19,9 @@ function Router() {
           <Route path="/visi-misi" element={<VisiMisi />} />
           <Route path="/team" element={<Team />} />
           {/* <Route path="/registration" element={<Registration />} /> */}
-          <Route path="*" element={<Home />} />
+          <Route path="/program" element={<Program />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="*" element={<NotFoundPgaes />} />
         </Routes>
         <SpeedInsights />
       </BrowserRouter>

@@ -175,7 +175,7 @@ function Footer() {
             </div>
 
             <div className="text-center sm:text-left">
-              <p className="text-lg font-medium text-gray-900">Program Kami</p>
+              <p className="text-lg font-medium text-gray-900">Program</p>
 
               <ul className="mt-8 space-y-4 text-sm">
                 <li>
@@ -203,7 +203,7 @@ function Footer() {
                     href="/"
                   >
                     {' '}
-                    Program Field Trip{' '}
+                    Program Unggulan{' '}
                   </a>
                 </li>
 
@@ -213,7 +213,7 @@ function Footer() {
                     href="/"
                   >
                     {' '}
-                    International Program{' '}
+                    Program International{' '}
                   </a>
                 </li>
                 <li>

@@ -58,7 +58,7 @@ const callsToAction = [
 const company = [
   { name: 'Kurikulum', href: '#', icon: InformationCircleIcon },
   { name: 'Ekstrakurikuler', href: '#', icon: BuildingOfficeIcon },
-  { name: 'Program Field Trip', href: '#', icon: NewspaperIcon },
+  { name: 'Program Unggulan', href: '#', icon: NewspaperIcon },
   { name: 'International Program', href: '#', icon: BriefcaseIcon },
   { name: 'Muatan Lokal', href: '#', icon: ShieldCheckIcon }
 ];
@@ -263,7 +263,7 @@ export default function NavMenu() {
                             <nav className="grid gap-y-10 bg-white px-4 py-8 sm:grid-cols-2 sm:gap-x-8 sm:py-12 sm:px-6 lg:px-8 xl:pr-12">
                               <div>
                                 <h3 className="text-base font-medium text-gray-500">
-                                  Company
+                                  <a href="/program"> All Program</a>
                                 </h3>
                                 <ul role="list" className="mt-5 space-y-6">
                                   {company.map((item) => (
@@ -306,7 +306,7 @@ export default function NavMenu() {
                               </ul>
                             </div> */}
                             </nav>
-                            <div className="bg-gray-50 px-4 py-8 sm:py-12 sm:px-6 lg:px-8 xl:pl-12">
+                            {/* <div className="bg-gray-50 px-4 py-8 sm:py-12 sm:px-6 lg:px-8 xl:pl-12">
                               <div>
                                 <h3 className="text-base font-medium text-gray-500">
                                   From the blog
@@ -347,7 +347,7 @@ export default function NavMenu() {
                                   <span aria-hidden="true"> &rarr;</span>
                                 </a>
                               </div>
-                            </div>
+                            </div> */}
                           </div>
                         </Popover.Panel>
                       </Transition>
@@ -442,7 +442,7 @@ export default function NavMenu() {
                   )}
                 </Popover>
                 <a
-                  href="#"
+                  href="/gallery"
                   className="text-base font-medium text-gray-500 hover:text-gray-900 mr-8"
                 >
                   Gallery
@@ -515,7 +515,7 @@ export default function NavMenu() {
                     </div>
                     <div className="mt-8 text-base">
                       <a
-                        href="#"
+                        href="/program"
                         className="font-medium text-teal-600 hover:text-teal-500"
                       >
                         View all program
@@ -534,7 +534,7 @@ export default function NavMenu() {
                     Fasilitas
                   </a>
                   <a
-                    href="#"
+                    href="/gallery"
                     className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700"
                   >
                     Galery
