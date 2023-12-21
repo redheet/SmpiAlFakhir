@@ -7,6 +7,7 @@ import Team from './pages/team';
 import NotFoundPgaes from './pages/notfoundpages';
 import Program from './pages/program';
 import Gallery from './pages/gallery';
+import Schema from './pages/schema';
 // import Registration from './pages/registration';
 
 function Router() {
@@ -21,6 +22,7 @@ function Router() {
           {/* <Route path="/registration" element={<Registration />} /> */}
           <Route path="/program" element={<Program />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/scheme" element={<Schema />} />
           <Route path="*" element={<NotFoundPgaes />} />
         </Routes>
         <SpeedInsights />
