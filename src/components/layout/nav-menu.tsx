@@ -26,8 +26,7 @@ import logo from '../../assets/img/alfakhir.png';
 const solutions = [
   {
     name: 'Sejarah',
-    description:
-      'Get a better understanding of where your traffic is coming from.',
+    description: 'Get a better understanding of where your traffic is coming from.',
     href: '/about',
     icon: ChartBarIcon
   },
@@ -111,10 +110,7 @@ export default function NavMenu() {
   return (
     <header className="sticky z-10 top-0">
       <Popover className="relative bg-white">
-        <div
-          className="pointer-events-none absolute inset-0 z-30 shadow"
-          aria-hidden="true"
-        />
+        <div className="pointer-events-none absolute inset-0 z-30 shadow" aria-hidden="true" />
         <div className="relative z-20">
           <div className="mx-auto flex max-w-7xl items-center justify-between py-5 px-6 sm:py-4 md:justify-start md:space-x-10 lg:px-8">
             <div>
@@ -149,10 +145,7 @@ export default function NavMenu() {
                       >
                         <span>Tentang Kami</span>
                         <ChevronDownIcon
-                          className={classNames(
-                            open ? 'text-gray-600' : 'text-gray-400',
-                            'ml-2 h-5 w-5 group-hover:text-gray-500'
-                          )}
+                          className={classNames(open ? 'text-gray-600' : 'text-gray-400', 'ml-2 h-5 w-5 group-hover:text-gray-500')}
                           aria-hidden="true"
                         />
                       </Popover.Button>
@@ -169,28 +162,17 @@ export default function NavMenu() {
                         <Popover.Panel className="absolute inset-x-0 top-full z-10 hidden transform bg-white shadow-lg md:block">
                           <div className="mx-auto grid max-w-7xl gap-y-6 px-4 py-6 sm:grid-cols-2 sm:gap-8 sm:px-6 sm:py-8 lg:grid-cols-4 lg:px-8 lg:py-12 xl:py-16">
                             {solutions.map((item) => (
-                              <a
-                                key={item.name}
-                                href={item.href}
-                                className="-m-3 flex flex-col justify-between rounded-lg p-3 hover:bg-gray-50"
-                              >
+                              <a key={item.name} href={item.href} className="-m-3 flex flex-col justify-between rounded-lg p-3 hover:bg-gray-50">
                                 <div className="flex md:h-full lg:flex-col">
                                   <div className="flex-shrink-0">
                                     <span className="inline-flex h-10 w-10 items-center justify-center rounded-md bg-teal-500 text-white sm:h-12 sm:w-12">
-                                      <item.icon
-                                        className="h-6 w-6"
-                                        aria-hidden="true"
-                                      />
+                                      <item.icon className="h-6 w-6" aria-hidden="true" />
                                     </span>
                                   </div>
                                   <div className="ml-4 md:flex md:flex-1 md:flex-col md:justify-between lg:ml-0 lg:mt-4">
                                     <div>
-                                      <p className="text-base font-medium text-gray-900">
-                                        {item.name}
-                                      </p>
-                                      <p className="mt-1 text-sm text-gray-500">
-                                        {item.description}
-                                      </p>
+                                      <p className="text-base font-medium text-gray-900">{item.name}</p>
+                                      <p className="mt-1 text-sm text-gray-500">{item.description}</p>
                                     </div>
                                     <p className="mt-2 text-sm font-medium text-teal-600 lg:mt-4">
                                       Selengkapnya
@@ -205,14 +187,8 @@ export default function NavMenu() {
                             <div className="mx-auto max-w-7xl space-y-6 px-4 py-5 sm:flex sm:space-y-0 sm:space-x-10 sm:px-6 lg:px-8">
                               {callsToAction.map((item) => (
                                 <div key={item.name} className="flow-root">
-                                  <a
-                                    href={item.href}
-                                    className="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900 hover:bg-gray-100"
-                                  >
-                                    <item.icon
-                                      className="h-6 w-6 flex-shrink-0 text-gray-400"
-                                      aria-hidden="true"
-                                    />
+                                  <a href={item.href} className="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900 hover:bg-gray-100">
+                                    <item.icon className="h-6 w-6 flex-shrink-0 text-gray-400" aria-hidden="true" />
                                     <span className="ml-3">{item.name}</span>
                                   </a>
                                 </div>
@@ -237,10 +213,7 @@ export default function NavMenu() {
                       >
                         <span>Program</span>
                         <ChevronDownIcon
-                          className={classNames(
-                            open ? 'text-gray-600' : 'text-gray-400',
-                            'ml-2 h-5 w-5 group-hover:text-gray-500'
-                          )}
+                          className={classNames(open ? 'text-gray-600' : 'text-gray-400', 'ml-2 h-5 w-5 group-hover:text-gray-500')}
                           aria-hidden="true"
                         />
                       </Popover.Button>
@@ -272,13 +245,8 @@ export default function NavMenu() {
                                         href={item.href}
                                         className="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900 hover:bg-gray-50"
                                       >
-                                        <item.icon
-                                          className="h-6 w-6 flex-shrink-0 text-gray-400"
-                                          aria-hidden="true"
-                                        />
-                                        <span className="ml-4">
-                                          {item.name}
-                                        </span>
+                                        <item.icon className="h-6 w-6 flex-shrink-0 text-gray-400" aria-hidden="true" />
+                                        <span className="ml-4">{item.name}</span>
                                       </a>
                                     </li>
                                   ))}
@@ -367,10 +335,7 @@ export default function NavMenu() {
                       >
                         <span>Fasilitas</span>
                         <ChevronDownIcon
-                          className={classNames(
-                            open ? 'text-gray-600' : 'text-gray-400',
-                            'ml-2 h-5 w-5 group-hover:text-gray-500'
-                          )}
+                          className={classNames(open ? 'text-gray-600' : 'text-gray-400', 'ml-2 h-5 w-5 group-hover:text-gray-500')}
                           aria-hidden="true"
                         />
                       </Popover.Button>
@@ -402,13 +367,8 @@ export default function NavMenu() {
                                         href={item.href}
                                         className="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900 hover:bg-gray-50"
                                       >
-                                        <item.icon
-                                          className="h-6 w-6 flex-shrink-0 text-gray-400"
-                                          aria-hidden="true"
-                                        />
-                                        <span className="ml-4">
-                                          {item.name}
-                                        </span>
+                                        <item.icon className="h-6 w-6 flex-shrink-0 text-gray-400" aria-hidden="true" />
+                                        <span className="ml-4">{item.name}</span>
                                       </a>
                                     </li>
                                   ))}
@@ -422,13 +382,8 @@ export default function NavMenu() {
                                         href={item.href}
                                         className="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900 hover:bg-gray-50"
                                       >
-                                        <item.icon
-                                          className="h-6 w-6 flex-shrink-0 text-gray-400"
-                                          aria-hidden="true"
-                                        />
-                                        <span className="ml-4">
-                                          {item.name}
-                                        </span>
+                                        <item.icon className="h-6 w-6 flex-shrink-0 text-gray-400" aria-hidden="true" />
+                                        <span className="ml-4">{item.name}</span>
                                       </a>
                                     </li>
                                   ))}
@@ -441,10 +396,7 @@ export default function NavMenu() {
                     </>
                   )}
                 </Popover>
-                <a
-                  href="/gallery"
-                  className="text-base font-medium text-gray-500 hover:text-gray-900 mr-8"
-                >
+                <a href="/gallery" className="text-base font-medium text-gray-500 hover:text-gray-900 mr-8">
                   Gallery
                 </a>
               </Popover.Group>
@@ -474,19 +426,12 @@ export default function NavMenu() {
           leaveFrom="opacity-100 scale-100"
           leaveTo="opacity-0 scale-95"
         >
-          <Popover.Panel
-            focus
-            className="absolute inset-x-0 top-0 z-30 origin-top-right transform p-2 transition md:hidden"
-          >
+          <Popover.Panel focus className="absolute inset-x-0 top-0 z-30 origin-top-right transform p-2 transition md:hidden">
             <div className="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5">
               <div className="px-5 pt-5 pb-6 sm:pb-8">
                 <div className="flex items-center justify-between">
                   <div>
-                    <img
-                      className="h-8 w-auto"
-                      src={logo}
-                      alt="SMPI Modern Al Fakhir"
-                    />
+                    <img className="h-8 w-auto" src={logo} alt="SMPI Modern Al Fakhir" />
                   </div>
                   <div className="-mr-2">
                     <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-500">
@@ -499,25 +444,16 @@ export default function NavMenu() {
                   <nav>
                     <div className="grid gap-7 sm:grid-cols-2 sm:gap-y-8 sm:gap-x-4">
                       {solutions.map((item) => (
-                        <a
-                          key={item.name}
-                          href={item.href}
-                          className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50"
-                        >
+                        <a key={item.name} href={item.href} className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50">
                           <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-teal-500 text-white sm:h-12 sm:w-12">
                             <item.icon className="h-6 w-6" aria-hidden="true" />
                           </div>
-                          <div className="ml-4 text-base font-medium text-gray-900">
-                            {item.name}
-                          </div>
+                          <div className="ml-4 text-base font-medium text-gray-900">{item.name}</div>
                         </a>
                       ))}
                     </div>
                     <div className="mt-8 text-base">
-                      <a
-                        href="/program"
-                        className="font-medium text-teal-600 hover:text-teal-500"
-                      >
+                      <a href="/program" className="font-medium text-teal-600 hover:text-teal-500">
                         View all program
                         <span aria-hidden="true"> &rarr;</span>
                       </a>
@@ -527,16 +463,10 @@ export default function NavMenu() {
               </div>
               <div className="py-6 px-5">
                 <div className="grid grid-cols-2 gap-4">
-                  <a
-                    href="#"
-                    className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700"
-                  >
+                  <a href="#" className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
                     Fasilitas
                   </a>
-                  <a
-                    href="/gallery"
-                    className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700"
-                  >
+                  <a href="/gallery" className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
                     Galery
                   </a>
                 </div>

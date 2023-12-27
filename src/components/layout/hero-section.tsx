@@ -1,6 +1,20 @@
+// import { useState } from 'react';
 import building from '../../assets/img/building.jpeg';
+// import Features from './features';
+// import project1 from '../../assets/img/project-1.png';
+// import project2 from '../../assets/img/project-2.png';
+// import project3 from '../../assets/img/project-3.png';
+// import project4 from '../../assets/img/project-4.png';
+// import project5 from '../../assets/img/project-5.png';
+// import project6 from '../../assets/img/project-6.png';
+// import project7 from '../../assets/img/project-7.png';
+// import project8 from '../../assets/img/project-8.png';
+// import project9 from '../../assets/img/project-9.png';
+// import project10 from '../../assets/img/project-10.png';
+// import project11 from '../../assets/img/project-11.png';
+// import project12 from '../../assets/img/project-12.png';
 
-export default function HeroSection() {
+const HeroSection = () => {
   return (
     <>
       <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0">
@@ -13,11 +27,7 @@ export default function HeroSection() {
           >
             <path d="M50 0H100L50 100H0L50 0Z" />
           </svg>
-          <img
-            className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
-            src={building}
-            alt=""
-          />
+          <img className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full" src={building} alt="" />
         </div>
         <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
           <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
@@ -27,15 +37,11 @@ export default function HeroSection() {
             <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
               SMP Islam
               <br className="hidden md:block" />
-              Modern{' '}
-              <span className="inline-block text-deep-purple-accent-400">
-                Al-Fakhir
-              </span>
+              Modern <span className="inline-block text-deep-purple-accent-400">Al-Fakhir</span>
             </h2>
             <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
-              SMP Islam yang mengusung konsep modern, mengadopsi model kelas dan
-              program internasional, namun tetap mengutamakan pendidikan
-              karakter, moral, akhlak dan nilai-nilai keislaman.
+              SMP Islam yang mengusung konsep modern, mengadopsi model kelas dan program internasional, namun tetap mengutamakan pendidikan karakter, moral,
+              akhlak dan nilai-nilai keislaman.
             </p>
             <div className="flex items-center">
               <a
@@ -55,6 +61,9 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
+
+      {/* <Features /> */}
     </>
   );
-}
+};
+export default HeroSection;
