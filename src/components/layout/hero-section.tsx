@@ -1,6 +1,7 @@
 // import { useState } from 'react';
 import building from '../../assets/img/building.jpeg';
-// import Features from './features';
+// import Fasilty from './fasilty';
+import Features from './features';
 // import project1 from '../../assets/img/project-1.png';
 // import project2 from '../../assets/img/project-2.png';
 // import project3 from '../../assets/img/project-3.png';
@@ -62,7 +63,8 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* <Features /> */}
+      <Features />
+      {/* <Fasilty /> */}
     </>
   );
 };

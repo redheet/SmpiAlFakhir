@@ -63,13 +63,19 @@ function Program() {
           </div>
           <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 space-y-12">
             <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
-              <img src="https://source.unsplash.com/640x480/?1" alt="" className="h-80 dark:bg-gray-500 aspect-video" />
+              {/* 640x480  */}
+              <img
+                src="https://images.unsplash.com/photo-1414690165279-49ab0a9a7e66?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJvb2slMjAlMjYlMjBjb21wdXRlcnxlbnwwfHwwfHx8MA%3D%3D"
+                alt=""
+                className="h-80 dark:bg-gray-500 aspect-video"
+              />
               <div className="flex flex-col justify-center flex-1 p-6">
                 <h3 className="text-3xl font-bold">
                   <a href="#">Kurikulum</a>
                 </h3>
                 <p className="my-6 dark:text-gray-400">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquam possimus quas, error esse quos.
+                  Kurikulum yang digunakan oleh SMP Islam Modern Al Fakhir adalah Kurikulum Merdeka yang dimodifikasi dengan kurikulum khas SMP Islam Modern Al
+                  Fakhir
                 </p>
                 <button type="button" className="self-start">
                   Selengkapnya
@@ -77,13 +83,18 @@ function Program() {
               </div>
             </div>
             <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row-reverse">
-              <img src="https://source.unsplash.com/640x480/?2" alt="" className="h-80 dark:bg-gray-500 aspect-video" />
+              <img
+                src="https://plus.unsplash.com/premium_photo-1683140415727-a2a7f7a554b6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+                className="h-80 dark:bg-gray-500 aspect-video"
+              />
               <div className="flex flex-col justify-center flex-1 p-6 dark:bg-gray-900">
                 <h3 className="text-3xl font-bold">
                   <a href="#">Ekstrakurikuler</a>
                 </h3>
                 <p className="my-6 dark:text-gray-400">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquam possimus quas, error esse quos.
+                  Ekstrakurikuler yang kami sediakan antara lain, <br /> A. SENI : Desain Grafis - Fotografi - Video Editing - Musik - Tari <br /> B. OLAHRAGA :
+                  Renang - Bulu Tangkis - Futsal <br /> C. BAHASA ASING : Bahasa Arab - Bahasa Jepang - Bahasa Korea
                 </p>
                 <button type="button" className="self-start">
                   Selengkapnya
@@ -91,13 +102,21 @@ function Program() {
               </div>
             </div>
             <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
-              <img src="https://source.unsplash.com/640x480/?3" alt="" className="h-80 dark:bg-gray-500 aspect-video" />
+              <img
+                src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+                className="h-80 dark:bg-gray-500 aspect-video"
+              />
               <div className="flex flex-col justify-center flex-1 p-6 dark:bg-gray-900">
                 <h3 className="text-3xl font-bold">
                   <a href="#">Program Unggulan</a>
                 </h3>
                 <p className="my-6 dark:text-gray-400">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquam possimus quas, error esse quos.
+                  Program Unggulan di SMP Islam Modern Al Fakhir antara lain adalah: <br />
+                  1. Research (Penelitian) <br />
+                  2. Muhadhoroh & Public Speaking <br />
+                  3. Fiqih & Akhlak <br />
+                  4. Tahsin & Tahfidz
                 </p>
                 <button type="button" className="self-start">
                   Selengkapnya
@@ -105,20 +124,30 @@ function Program() {
               </div>
             </div>
             <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row-reverse">
-              <img src="https://source.unsplash.com/640x480/?4" alt="" className="h-80 dark:bg-gray-500 aspect-video" />
+              <img
+                src="https://images.unsplash.com/photo-1592303637753-ce1e6b8a0ffb?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+                className="h-80 dark:bg-gray-500 aspect-video"
+              />
               <div className="flex flex-col justify-center flex-1 p-6 dark:bg-gray-900">
                 <h3 className="text-3xl font-bold">
-                  <a href="#">International Program</a>
+                  <a href="#">Program Internasional</a>
                 </h3>
                 <p className="my-6 dark:text-gray-400">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquam possimus quas, error esse quos.
+                  Program Internasional yang rencananya akan kami terapkan di SMP Islam Modern Al Fakhir di antaranya adalah, <br />
+                  1. International Science Project, Invention, and Innovation Competition <br />
+                  2. International Olympiad Competition <br />
+                  3. International Collaborative Class <br />
+                  4. International Motivation Class <br />
+                  5. International Conferences <br />
+                  6. Students Exchange
                 </p>
                 <button type="button" className="self-start">
                   Selengkapnya
                 </button>
               </div>
             </div>
-            <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
+            {/* <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
               <img src="https://source.unsplash.com/640x480/?5" alt="" className="h-80 dark:bg-gray-500 aspect-video" />
               <div className="flex flex-col justify-center flex-1 p-6 dark:bg-gray-900">
                 <h3 className="text-3xl font-bold">
@@ -131,7 +160,7 @@ function Program() {
                   Selengkapnya
                 </button>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

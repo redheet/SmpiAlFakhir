@@ -236,7 +236,7 @@ export default function NavMenu() {
                             <nav className="grid gap-y-10 bg-white px-4 py-8 sm:grid-cols-2 sm:gap-x-8 sm:py-12 sm:px-6 lg:px-8 xl:pr-12">
                               <div>
                                 <h3 className="text-base font-medium text-gray-500">
-                                  <a href="/program"> All Program</a>
+                                  <a href="/program">Program Kami</a>
                                 </h3>
                                 <ul role="list" className="mt-5 space-y-6">
                                   {company.map((item) => (
