@@ -64,7 +64,7 @@ const HeroSection = () => {
       </div>
 
       <Features />
-      <Fasilty />
+      {/* <Fasilty /> */}
     </>
   );
 };
