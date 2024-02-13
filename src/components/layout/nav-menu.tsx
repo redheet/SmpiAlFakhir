@@ -15,9 +15,11 @@ import {
   PhoneIcon,
   PlayIcon,
   ShieldCheckIcon,
+  AcademicCapIcon,
   Squares2X2Icon,
   UserGroupIcon,
-  XMarkIcon
+  XMarkIcon,
+  PuzzlePieceIcon
 } from '@heroicons/react/24/outline';
 import { ChevronDownIcon } from '@heroicons/react/20/solid';
 import { Popover, Transition } from '@headlessui/react';
@@ -54,12 +56,12 @@ const callsToAction = [
   { name: 'Detail Kurikulum', href: '#', icon: CheckCircleIcon },
   { name: 'Hubungi Kami', href: '#', icon: PhoneIcon }
 ];
-const company = [
-  { name: 'Kurikulum', href: '#', icon: InformationCircleIcon },
-  { name: 'Ekstrakurikuler', href: '#', icon: BuildingOfficeIcon },
-  { name: 'Program Unggulan', href: '#', icon: NewspaperIcon },
-  { name: 'International Program', href: '#', icon: BriefcaseIcon },
-  { name: 'Muatan Lokal', href: '#', icon: ShieldCheckIcon }
+const program = [
+  { name: 'Kurikulum', href: '#', icon: NewspaperIcon },
+  { name: 'Ekstrakurikuler', href: '#', icon: PuzzlePieceIcon },
+  { name: 'Program Unggulan', href: '#', icon: InformationCircleIcon },
+  { name: 'International Program', href: '#', icon: GlobeAltIcon },
+  { name: 'Program Beasiswa', href: '/beasiswa', icon: AcademicCapIcon }
 ];
 const fasilitas = [
   { name: 'Ruangan Kelas Ber AC', href: '#', icon: InformationCircleIcon },
@@ -239,7 +241,7 @@ export default function NavMenu() {
                                   <a href="/program">Program Kami</a>
                                 </h3>
                                 <ul role="list" className="mt-5 space-y-6">
-                                  {company.map((item) => (
+                                  {program.map((item) => (
                                     <li key={item.name} className="flow-root">
                                       <a
                                         href={item.href}
@@ -358,7 +360,7 @@ export default function NavMenu() {
                             <nav className="grid gap-y-10 bg-white px-4 py-8 sm:grid-cols-2 sm:gap-x-8 sm:py-12 sm:px-6 lg:px-8 xl:pr-12">
                               <div>
                                 {/* <h3 className="text-base font-medium text-gray-500">
-                                Company
+                                program
                               </h3> */}
                                 <ul role="list" className="mt-5 space-y-6">
                                   {fasilitas.map((item) => (

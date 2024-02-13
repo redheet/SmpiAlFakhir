@@ -8,6 +8,7 @@ import NotFoundPgaes from './pages/notfoundpages';
 import Program from './pages/program';
 import Gallery from './pages/gallery';
 import Schema from './pages/schema';
+import Beasiswa from './pages/beasiswa';
 // import Registration from './pages/registration';
 
 function Router() {
@@ -19,6 +20,7 @@ function Router() {
           <Route path="/about" element={<About />} />
           <Route path="/visi-misi" element={<VisiMisi />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/beasiswa" element={<Beasiswa />} />
           {/* <Route path="/registration" element={<Registration />} /> */}
           <Route path="/program" element={<Program />} />
           <Route path="/gallery" element={<Gallery />} />
