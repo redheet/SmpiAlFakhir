@@ -174,7 +174,7 @@ export default function NavMenu() {
                                   <div className="ml-4 md:flex md:flex-1 md:flex-col md:justify-between lg:ml-0 lg:mt-4">
                                     <div>
                                       <p className="text-base font-medium text-gray-900">{item.name}</p>
-                                      <p className="mt-1 text-sm text-gray-500">{item.description}</p>
+                                      {/* <p className="mt-1 text-sm text-gray-500">{item.description}</p> */}
                                     </div>
                                     <p className="mt-2 text-sm font-medium text-teal-600 lg:mt-4">
                                       Selengkapnya
