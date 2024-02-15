@@ -1,4 +1,6 @@
 import Footer from '../layout/footer';
+import TeamV from '../../assets/img/team.jpg';
+import TeamV2 from '../../assets/img/team2.jpg';
 import NavMenu from '../layout/nav-menu';
 import Head from '../ui/Head';
 
@@ -11,17 +13,11 @@ function Gallery() {
         <div className="grid max-w-screen-lg gap-8 row-gap-5 md:row-gap-8 sm:mx-auto lg:grid-cols-2">
           <div className="transition duration-300 transform bg-white rounded shadow-sm hover:-translate-y-1 hover:shadow md:text-center">
             <div className="relative">
-              <img
-                className="object-cover w-full h-64 rounded-t lg:h-80 xl:h-96"
-                src="https://images.pexels.com/photos/3182796/pexels-photo-3182796.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                alt=""
-              />
+              <img className="object-cover w-full h-64 rounded-t lg:h-80 xl:h-96" src={TeamV} alt="" />
               <div className="absolute inset-0 bg-gray-800 bg-opacity-25" />
             </div>
             <div className="px-6 py-8 border border-t-0 rounded-b sm:px-8">
-              <h5 className="mb-2 text-xl font-bold leading-none sm:text-2xl">
-                Photo
-              </h5>
+              <h5 className="mb-2 text-xl font-bold leading-none sm:text-2xl">Photo</h5>
 
               <button
                 type="submit"
@@ -33,17 +29,11 @@ function Gallery() {
           </div>
           <div className="transition duration-300 transform bg-white rounded shadow-sm hover:-translate-y-1 hover:shadow md:text-center">
             <div className="relative">
-              <img
-                className="object-cover w-full h-64 rounded-t lg:h-80 xl:h-96"
-                src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                alt=""
-              />
+              <img className="object-cover w-full h-64 rounded-t lg:h-80 xl:h-96" src={TeamV2} alt="" />
               <div className="absolute inset-0 bg-gray-800 bg-opacity-25" />
             </div>
             <div className="px-6 py-8 border border-t-0 rounded-b sm:px-8">
-              <h5 className="mb-2 text-xl font-bold leading-none sm:text-2xl">
-                Video
-              </h5>
+              <h5 className="mb-2 text-xl font-bold leading-none sm:text-2xl">Video</h5>
 
               <button
                 type="submit"
