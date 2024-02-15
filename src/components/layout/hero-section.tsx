@@ -1,5 +1,5 @@
 // import { useState } from 'react';
-import building from '../../assets/img/building.jpeg';
+import building from '../../assets/img/building.jpg';
 // import Fasilty from './fasilty';
 import Features from './features';
 // import project1 from '../../assets/img/project-1.png';
