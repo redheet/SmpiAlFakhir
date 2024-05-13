@@ -409,7 +409,7 @@ export default function NavMenu() {
               </ThemeProvider> */}
 
                 <a
-                  href="https://pendaftaran.smpialfakhir.sch.id"
+                  href="https://form-register-ten.vercel.app/"
                   className="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-teal-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-teal-700"
                 >
                   Pendaftaran
@@ -474,7 +474,7 @@ export default function NavMenu() {
                 </div>
                 <div className="mt-6">
                   <a
-                    href="https://pendaftaran.smpialfakhir.sch.id"
+                    href="https://form-register-ten.vercel.app/"
                     className="flex w-full items-center justify-center rounded-md border border-transparent bg-teal-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-teal-700"
                   >
                     Pendaftaran

@@ -45,7 +45,7 @@ const HeroSection = () => {
             </p>
             <div className="flex items-center">
               <a
-                href="https://pendaftaran.smpialfakhir.sch.id"
+                href="https://form-register-ten.vercel.app/"
                 className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-600 hover:bg-teal-700 focus:shadow-outline focus:outline-none"
               >
                 Daftar Sekarang
